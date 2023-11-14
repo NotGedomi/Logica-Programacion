@@ -1,4 +1,4 @@
-Algoritmo sin_titulo
+Algoritmo MayorMenorValorMatriz
 	Definir valor_mayor, valor_menor, matriz, renglones, columnas Como Entero
 	Definir matriz_mayor, matriz_menor como Cadena
 	Repetir
@@ -12,26 +12,20 @@ Algoritmo sin_titulo
 	
 	Dimension matriz[renglones,columnas]
 	
-	valor_mayor = 0
-	valor_menor = 0
-	posicion_reng_mayor = 0
-	posicion_reng_menor = 0
-	posicion_col_mayor = 0
-	posicion_col_menor = 0
-	
 	Para renglon = 0 Hasta renglones - 1 Hacer
 		Para columna = 0 Hasta columnas - 1 Hacer
 			Imprimir 'Proporciona el valor de [',renglon,',',columna,']: '
 			Leer matriz[renglon,columna]
 		FinPara
 	FinPara
-	Imprimir 'Los valores de la matriz son:'
-	Para renglon = 0 Hasta renglones - 1 Hacer
-		Para columna = 0 Hasta columna - 1 Hacer
-			valor_matriz = matriz[renglon,columna]
-			Imprimir '[',renglon,',',columna,'] = ', valor_matriz
-		FinPara
-	FinPara
+	
+	valor_mayor = matriz[0,0]
+	valor_menor = matriz[0,0]
+	posicion_reng_mayor = 0
+	posicion_reng_menor = 0
+	posicion_col_mayor = 0
+	posicion_col_menor = 0
+	
 	Para renglon = 0 Hasta renglones - 1 Hacer
 		Para columna = 0 Hasta columnas - 1 Hacer
 			Si matriz[renglon,columna] > valor_mayor Entonces
