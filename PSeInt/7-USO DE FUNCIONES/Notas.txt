@@ -1,22 +1,28 @@
 - Sintaxis de una funcion: 
 	
-	Funcion tipo/retorno[arreglo, cadena, entero, etc] <- nombre[verbo o accion](parametro(variables locales))
-	FinFuncion
+Funcion tipo/retorno[arreglo, cadena, entero, etc] <- nombre[verbo o accion](parametro(variables locales))
+FinFuncion
 
 
 - Diferencia entre Parámetro y Argumento en una Funcion:
 	
-	Parámetro es el termino o variable local establecida en una función al declararla.
-	Argumento es la información que le pasamos a nuestra funcion al invocarla/llamarla.
-	Cuando ejecutamos una funcion, el argumento se pasa al parametro.
+Parámetro es el termino o variable local establecida en una función al declararla.
+Argumento es la información que le pasamos a nuestra funcion al invocarla/llamarla.
+Cuando ejecutamos una funcion, el argumento se pasa al parametro.
 
 - Diferencia entre Funcion y Procedimiento en una Funcion:
 	
-	Una función es un bloque de código diseñado para realizar una tarea específica. Puede tomar entradas, procesarlas y devolver un 	resultado. Por ejemplo, una función podría tomar dos números como entrada y devolver su suma. En términos generales, una función 	devuelve un valor.
+Una función es un bloque de código diseñado para realizar una tarea específica. Puede tomar entradas, procesarlas y devolver un resultado. Por ejemplo, una función podría tomar dos números como entrada y devolver su suma. En términos generales, una función devuelve un valor.
 
-	Por otro lado, un procedimiento también es un bloque de código, pero a diferencia de una función, un procedimiento no devuelve un 	valor. En lugar de eso, un procedimiento realiza una acción o ejecuta un comando. Por ejemplo, un procedimiento podría tomar una 	lista de números y ordenarla, pero no devolvería ningún valor.
+Por otro lado, un procedimiento también es un bloque de código, pero a diferencia de una función, un procedimiento no devuelve un valor. En lugar de eso, un procedimiento realiza una acción o ejecuta un comando. Por ejemplo, un procedimiento podría tomar una lista de números y ordenarla, pero no devolvería ningún valor.
 
 Procedimiento: Es un conjunto de instrucciones que cumplen una tarea
 Función: Como un procedimiento pero retorna un valor
 Clase: Concepto de programación orientada a objetos, es una forma de encapsular funcionalidad, contiene campos y métodos.
 Método: Puede ser un procedimiento o una función, la diferencia es que le pertenece a una clase.
+
+
+- Tipos de memoria:
+
+Memoria ROM: Read Only Memory (Los datos almacenados aquí no son modificables / Solo Lectura)
+Memoria RAM: Random Access Memory (Los datos almacenados aquí son cambiantes / Lectura y Escritura)
