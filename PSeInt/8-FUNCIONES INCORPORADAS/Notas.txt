@@ -1,0 +1,4 @@
+Juego de caracteres: Representacion de cada caracter en lenguaje humano a lenguaje maquina(Sistema Binario).
+
+Ejemplo: ASCII(Amercan Standard Code For Information Interchange)
+Link: https://elcodigoascii.com.ar/
